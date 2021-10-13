@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "4493d54f-d97a-4959-ac43-ee48e18e5017",
+		"name": "BankRegistration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save BankClientData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"digitalBankId\":\"09870987\",\n    \"clientId\":1234,\n    \"customerId\":1234,\n    \"bpId\":\"09809709\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8066/customers/bank-client-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8066",
+					"path": [
+						"customers",
+						"bank-client-data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

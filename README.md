@@ -50,7 +50,7 @@ mvn clean package
 If you wish to run on console the components:
 
 ```shell
-java -jar 
+java -jar -Dspring.profiles.active=local target/[artifact-id]-[version].jar
 ```
 
 

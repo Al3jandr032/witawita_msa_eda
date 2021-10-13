@@ -36,7 +36,7 @@ mysql -u root -h 127.0.0.1 -P 3306 -p < sql_scripts/oath.sql
 
 ## Java Components
 
-Java Development Kit (JDK) 11 is required to build the components
+Apache Maven and Java Development Kit (JDK) 11 are required to build the components
 
 ```shell
 cd workspace/domain-events-commons

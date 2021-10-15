@@ -53,7 +53,15 @@ mvn clean package
 If you wish to run on console the components:
 
 ```shell
-java -jar -Dspring.profiles.active=local target/[artifact-id]-[version].jar
+cd workspace
+cd bankregistration-api
+java -jar -Dspring.profiles.active=local target/bankregistration-api-1.0.0-SNAPSHOT.jar
+```
+
+```shell
+cd workspace
+cd oath-api
+java -jar -Dspring.profiles.active=local target/oath-api-1.0.0-SNAPSHOT.jar
 ```
 
 

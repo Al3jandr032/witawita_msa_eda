@@ -18,7 +18,10 @@ docker pull zookeeper
 docker run -d -p 2181:2181 --name some-zookeeper --restart always -d zookeeper
 ```
 
-## MySQL 
+## MySQL
+
+MySQL client or MySQL Workbench is requied for this component
+
 ```shell
 docker pull mysql:5.6
 docker run -d -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=password mysql:5.6

@@ -9,6 +9,7 @@ This training requires some components to be run before executing any service.
 docker pull rabbitmq:3-management
 docker run -d --hostname my-rabbit -p 5672:5672 -p 15672:15672 --name some-rabbit rabbitmq:3-management
 docker exec some-rabbit rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
+docker restart some-rabbit
 ```
 
 ## ZooKeeper

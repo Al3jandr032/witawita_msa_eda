@@ -81,3 +81,8 @@ docker stop some-mysql
 docker rm some-mysql
 
 ```
+
+## Docker compose
+
+You have the alternative to use a docker compose definition for the services
+
